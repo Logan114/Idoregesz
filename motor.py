@@ -2,7 +2,7 @@ from statusz import *
 
 def kiolvas(n):
     map = open("szintek.txt", "r", encoding="utf-8")
-    help = open("segito", "r", encoding="utf-8")
+    help = open("segito.txt", "r", encoding="utf-8")
     segito = help.readlines()
     szintek = map.readlines()
     print(f"a használható parancsok: {segito[n]}\n")
