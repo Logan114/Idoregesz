@@ -1,13 +1,13 @@
-"(megy, kut, epulet, kastely)"
-"(megy, epulet)"
-4. "(felvesz, penz, epulet, megy, kastely)"
-5. "(megy, epulet, kastely)"
-6. "(megy, vartemplom, kamra, ajto)"
-7. "(hasznal, penz, ad, megy, kamra, ajto)"
-8. "(felvesz, kulcs, megy, kamra, ajto)"
-9. "(megy, kamra, ajto)"
-10. "(megy, faajto, eszik, etel, ajto)"
-11. "(eszik, etel, megy, faajto)"
-12. "(hasznal, kulcs)"
-13. "(megy, ajto)"
-14. "(hasznal, kulcs, vizsgal, ajto)"
+megy, kut, epulet, kastely
+megy, epulet
+felvesz, penz, epulet, megy, kastely
+megy, epulet, kastely
+megy, vartemplom, kamra, ajto
+hasznal, penz, ad, megy, kamra, ajto
+felvesz, kulcs, megy, kamra, ajto
+megy, kamra, ajto
+megy, faajto, eszik, etel, ajto
+eszik, etel, megy, faajto
+hasznal, kulcs
+megy, ajto
+hasznal, kulcs, vizsgal, ajto
