@@ -1,0 +1,13 @@
+megy, kut, epulet, kastely
+megy, epulet
+felvesz, penz, epulet, megy, kastely
+megy, epulet, kastely
+megy, vartemplom, kamra, ajto
+hasznal, penz, ad, megy, kamra, ajto
+felvesz, kulcs, megy, kamra, ajto
+megy, kamra, ajto
+megy, faajto, eszik, etel, ajto
+eszik, etel, megy, faajto
+hasznal, kulcs
+megy, ajto
+hasznal, kulcs, vizsgal, ajto
