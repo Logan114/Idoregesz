@@ -2,8 +2,12 @@ from statusz import *
 
 def kiolvas(n):
     map = open("szintek.txt", "r", encoding="utf-8")
+    help = open("segito", "r", encoding="utf-8")
+    segito = help.readlines()
     szintek = map.readlines()
-    print(szintek[n])
+    print(f"a használható parancsok: {segito[n]}\n")
+
+    print(szintek[n],"\n")
     return n
     
 
@@ -14,6 +18,7 @@ def parancsertelmezo(bemenet):
     if ige == igek[0] and fonev == fonevek[0]:
         lvl:int = 1
         kiolvas(lvl)
+
     if ige == igek[0] and fonev == fonevek[1]:
         lvl:int = 2
         kiolvas(lvl)
@@ -47,42 +52,14 @@ def parancsertelmezo(bemenet):
     if ige == igek[0] and fonev == fonevek[6]:
         lvl:int = 12
         kiolvas(lvl)
-    if ige == igek[2] and fonev == fonevek[7]:
+    if ige == igek[2] or ige == igek[5] and fonev == fonevek[7]:
         lvl:int = 13
         kiolvas(lvl)
     if ige not in igek and fonev not in fonevek:
         print("hibas parancs")
 
     
-""" 0 = megy
-1 = ad
-2 = felvesz
-3 = hasznal
-4 = eszik
-5 = vizsgal
 
-0"epulet"
-1"kut"
-2"kastely"
-3 "penz"
-4 "vartemplom"
-5 "kamra"
-6 "ajto"
-7 "kulcs"
-8 "faajto"
-9 "etel
-10 "nyugat"
-"""
-"""
-while True:
-    try:
-        bemenet = input("Mit csinálsz? ")
-    except ValueError:
-        print ("Hibás parancs")
-        continue
-    if bemenet not in igek or fonevek:
-        break
-"""
 bemenet = input("Mit csinálsz? ")
 parancsertelmezo(bemenet)
 

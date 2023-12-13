@@ -1,5 +1,5 @@
-2. "(megy, epulet)"
-3. "(megy, kut, epulet, kastely)"
+"(megy, kut, epulet, kastely)"
+"(megy, epulet)"
 4. "(felvesz, penz, epulet, megy, kastely)"
 5. "(megy, epulet, kastely)"
 6. "(megy, vartemplom, kamra, ajto)"
