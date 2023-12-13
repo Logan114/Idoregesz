@@ -22,4 +22,3 @@ fonevek = ["epulet", "kut", "kastely", "penz", "vartemplom", "kamra", "ajto", "k
 14 = faajto
 15 = etel """
 
-
