@@ -24,6 +24,7 @@ def parancsertelmezo(bemenet):
         kiolvas(lvl)
     if ige == igek[2] and fonev == fonevek[3]:
         lvl:int = 3
+        penz = 1
         kiolvas(lvl)
     if ige == igek[0] and fonev == fonevek[0] or fonev == fonevek[2]:
         lvl:int = 4
@@ -60,6 +61,4 @@ def parancsertelmezo(bemenet):
 
     
 
-bemenet = input("Mit csinálsz? ")
-parancsertelmezo(bemenet)
 
