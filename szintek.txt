@@ -1,0 +1,14 @@
+0, 'Egy óriási mezőn vagy. Nyugat felé egy hatalmas épület körvonalai tűnnek fel.'
+1, 'Napfényes mezőn állsz. Nyugatra egy hatalmas kastélyt, délre egy kutat látsz'
+2, "Napfényes mezőn állsz, egy kút előtt. Itt van: pénz. Nyugatra egy hatalmas kastélyt látsz." #ha megy kut
+3, "Rendben, a pénzt elraktad." #ha felvesz pénz
+4, "A várudvaron állsz. Nyugatra nyitott kamrát, északra zárt ajtót látsz. Egy széles lépcső vezet fel a vártemplomhoz" #megy epulet vagy megy kastely
+5, "A templom előtt egy kéregető szerzetes mosolyog rád. Nyugatra nyitott kamrát, északra zárt ajtót látsz" #megy templom
+6, "A szerzetes megköszöni, és kinyújtja feléd a kezét, a tenyerén egy kulcsot tart." # ha ad penz
+7, "Rendben, a kulcsot elraktad" #ha felvesz kulcs 
+8, "A kamrában vagy. Egyik oldalon hatalmas asztal áll mindenféle ételekkel, a másik oldalon egy nagy tűzhely, szintén ételekkel. Délre egy faajtót látsz." #ha megy kamra
+9, "Egy faajtó előtt állsz, zárva van, A kulcslyukon nem lehet belátni." #ha megy faajto
+10, "Az ajtó könnyedén nyílik, egy kis ládikát pont fel tudsz kapni, amikor visszakerülsz a jelenbe!" #ha használ kulcs
+11, "Újra életerősnek érzed magad! (életerő maxra kerül: 10)" # ha eszik
+12, "Egy masszív, zárt ajtó előtt állsz." #ha megy ajto
+13, "Ezt az ajtót nem nyitja a kulcsod!" #ha nyit ajto
